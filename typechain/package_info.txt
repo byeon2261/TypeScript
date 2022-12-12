@@ -1,0 +1,5 @@
+scripts
+    tsc: tsconfig.json에 대한 fs를 역방향으로 검토하여 컴파일 실행..이라고 한다.
+    node: nodejs로 실행
+    nodemon: 한번 실행하면 파일이 변경될때마다 프로그램을 재실행하지 않고 변경사항을 적용해줌.
+    ts-node: typescript파일을 nodejs로 실행	

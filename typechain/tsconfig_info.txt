@@ -1,0 +1,8 @@
+include: 파일을 참조할 path
+compilerOptions-outDir: 자바스크립트 파일이 생성될 Directory
+compilerOptions-target: 자바스크립트 파일로 생성시킬 버젼을 지정 (ES3, ES6)
+compilerOptions-lib: 실행될 환경을 지정
+    "DOM": 브라우져
+compilerOptions-strict : 타입스크립트가 컴파일할 파일의 조건 강화 (d.ts파일 체크, Default : false) 함수 실행 조건을 구체화해야 한다. JS -> TS로 라이브러리를 임포트할때 type을 지정해야 한다. 
+compilerOptions-allowJs : js파일 포함 여부
+compilerOptions-esModuleInterop : (default: false) 모듈을 import할때 오류가 발생하지 않는다.
